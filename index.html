@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Connect wallet </title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--navbar, burgermenu-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="https://nft-home-page-kappa.vercel.app/">
+                <img src="./Storefront.png">
+                NFT Marketplace
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav1">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 11.5858 3.33579 11.25 3.75 11.25H20.25C20.6642 11.25 21 11.5858 21 12C21 12.4142 20.6642 12.75 20.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 6C3 5.58579 3.33579 5.25 3.75 5.25H15C15.4142 5.25 15.75 5.58579 15.75 6C15.75 6.41421 15.4142 6.75 15 6.75H3.75C3.33579 6.75 3 6.41421 3 6Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 18C3 17.5858 3.33579 17.25 3.75 17.25H15C15.4142 17.25 15.75 17.5858 15.75 18C15.75 18.4142 15.4142 18.75 15 18.75H3.75C3.33579 18.75 3 18.4142 3 18Z" fill="white"/>
+                      </svg>
+                </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="nav1">
+                <ul class="navbar-nav ms-auto gap-4 align-items-center">
+                    <li class="nav-item me-auto">
+                        <a href="#" class="nav-link marketplace text-white">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a href="#" class="nav-link text-white">
+                            Rankings
+                        </a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a href="#" class="nav-link text-white">
+                            Connect a wallet
+                        </a>
+                    </li>
+    
+                    <a href="https://nft-sign-up-page.vercel.app/" class="me-auto">
+                        <button type="button" class="button_navigation gap-2">
+                            <img src="./User.png" style="background: none;">
+                            Sign Up
+                        </button>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover img for Desktop -->
+    <div class="container-fluid d-md-block d-none" 
+         style="background-image: url(Image\ PlaceHolder\ deskt.png); height: 580px;
+         background-size: cover; background-repeat: no-repeat;">
+    </div>
+    <!-- Cover img for Mobile -->
+    <div class="container-fluid d-block d-md-none" 
+         style="background-image: url(./Image\ PlaceHolder\ mob\(1\).png); height: 320px;
+         background-size: cover; background-repeat: no-repeat;">
+    </div>
+
+    <!-- text & auction section for DESKTOP -->
+    <div class="container d-md-block d-none mt-4">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="h2_orbitians">The Orbitians</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="p_minted">Minted on Sep 30, 2022</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="h5_created">Created By</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 d-flex align-items-center gap-2">
+                        <img src="./Asset 12 2.png">
+                        <span class="span_orbitian">Orbitian</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-2">
+                        <p class="p_description">Description</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="p_the_orbitians">
+                            The Orbitians
+                            is a collection of 10,000 unique NFTs on the Ethereum<br> blockchain,<br>
+                            <br>
+                            There are all sorts of beings in the NFT Universe. The<br>
+                            most advanced and friendly of the bunch are Orbitians.<br> 
+                            <br>
+                            They live in a metal space machines, high up in the sky<br>
+                            and only have one foot on Earth.<br>
+                            These Orbitians are a peaceful race, but they have been<br> 
+                            at war with a group of invaders for many generations.<br> 
+                            The invaders are called Upside-Downs, because of their<br> 
+                            inverted bodies that live on the ground, yet do not<br> 
+                            know any other way to be. Upside-Downs believe that<br> 
+                            they will be able to win this war if they could only get<br>
+                            an eye into Orbitian territory, so they've taken to make<br> 
+                            human beings their target.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h5 class="h5_details">Details</h5>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <img src="Globe.png">
+                        <span class="p_view ps-2">View on Etherscan</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <img src="Globe.png">
+                        <span class="p_view ps-2">View Original</span>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <p class="p_tags">Tags</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 d-flex gap-3">
+                        <button type="button" class="btn_tags1">
+                            Animation
+                        </button>
+                        <button type="button" class="btn_tags2">
+                            illustration
+                        </button>
+                        <button type="button" class="btn_tags3">
+                            moon
+                        </button>
+                        <button type="button" class="btn_tags3">
+                            moon
+                        </button>
+                    </div>
+                </div>
+            </div>
+    <!-- Auction table for Desktop -->
+            <div class="col-md-5 d-flex justify-content-end">
+                <div class="auction_box">
+                    <p class="p_auction pt-4 ps-4">Auction ends in:</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Hours</p>
+                        </div>
+                        <p class="p_dot pt-2">:</p>
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Minutes</p>
+                        </div>
+                        <p class="p_dot pt-2">:</p>
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Seconds</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <button type="button" class="auction_button">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- More From This Artist & Button-->
+        <div class="row mt-5 pb-3 align-items-center">
+            <div class="col-md-6 mt-5">
+                <h3 class="h3_artists">More from this artist</h3>
+            </div>
+            <div class="col-md-6 mt-5 d-flex justify-content-end">
+                <button type="button" class="button_artist_page">
+                    <img src="ArrowRight.png">
+                    Go To Artist Page
+                </button>
+            </div>
+        </div>
+        <!-- Cards Row N1 -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph1.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Foxy Life</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph2.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Cat from future</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph3.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Psycho Dog</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cards Row N2 -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph4.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Designer Bear</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph5.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Dancing Robot 0375</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph6.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Dancing Robot 0356</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cards Row N3 -->
+        <div class="row mt-5 pb-5">
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph7.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Dancing Robot 0321</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph8.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Dancing Robot 0512</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card_1">
+                    <img src="./card-ph9.png">
+                    <div class="card-body ps-4">
+                        <h4 class="card-title title2 pt-2">Dancing Robot 0024</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbitian</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end pe-3">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section For Desktop -->
+    <div class="container-fluid d-md-block d-none mt-5"
+        style="background: hsla(0, 0%, 23%, 1); height: 400px;">
+        <div class="container">
+            <div class="row row_space justify-content-center">
+
+                <!--1-->
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="./Storefront.png">
+                            <span class="footer_header ps-1">NFT Marketplace</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-4">
+                                NFT marketplace UI created<br> with Anima for Figma.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-3">Join our community</p>
+                        </div>
+                    </div>
+                    <div class="row gap-2">
+                        <div class="col-md-1">
+                            <img src="./DiscordLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./YoutubeLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./TwitterLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./InstagramLogo.png">
+                        </div>
+                    </div>
+                </div>
+    
+                <!--2-->
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h5 class="footer_header mb-4">Explore</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Marketplace</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Rankings</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a class="footer_text a_text" href="#">Connect a wallet</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3-->
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 class="footer_header mb-4">
+                                Join our weekly digest
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="footer_text">
+                                Get exclusive promotions & updates<br> straight to your inbox.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12 position-relative">
+                            <input class="email1 ps-3" type="email" placeholder="Enter your email here">
+                            <button type="button" class="button3_mobile position-absolute end-0">
+                                <img src="./EnvelopeSimple.png">
+                                <a class="button_subscribe ps-1" href="#">Subscribe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <!-- border & copyright-->
+            <hr class="hr_footer mt-5">
+            <div class="row">
+                <div class="col-md-12 ms-3">
+                    <p class="copyR_footer mt-3">
+                        Ⓒ NFT Market. Use this template freely.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Mobile -->
+
+    <!-- text & auction section For MOBILE -->
+    <div class="container d-block d-md-none">
+        <!-- Text -->
+        <div class="row ps-4 pt-4">
+            <div class="col-12">
+                <h2 class="h2_orbitians_mob">The Orbitians</h2>
+                <p class="p_minted_mob">Minted on Sep 30, 2022</p>
+            </div>
+        </div>
+        <!-- auction Table Mob -->
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="auction_box_mob">
+                    <p class="p_auction pt-4 ps-4">Auction ends in:</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Hours</p>
+                        </div>
+                        <p class="p_dot pt-2">:</p>
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Minutes</p>
+                        </div>
+                        <p class="p_dot pt-2">:</p>
+                        <div class="d-inline">
+                            <p class="n_59 mb-0">59</p>
+                            <p class="p_hours">Seconds</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <button type="button" class="auction_button_mob">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--texts Mob-->
+        <div class="row ps-4 pt-4">
+            <div class="col-md-12">
+                <h5 class="h5_created_mob">Created By</h5>
+            </div>
+        </div>
+        <div class="row ps-4 pt-2">
+            <div class="col-md-2 d-flex align-items-center gap-2">
+                <img src="./Avatar Placeholder.png">
+                <span class="span_dish">Dish Studio</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <p class="p_description_mob ps-4 pt-4">Description</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="p_the_orbitians_mob ps-4 pt-2">
+                    The Orbitians<br>
+                    is a collection of 10,000 unique NFTs on<br>
+                    the Ethereum blockchain,<br>
+                    <br>
+                    There are all sorts of beings in the NFT<br>
+                    Universe. The most advanced and<br> 
+                    friendly of the bunch are Orbitians.<br>
+                    <br>
+                    They live in a metal space machines,<br>
+                    high up in the sky and only have one<br> 
+                    foot on Earth.<br>
+                    These Orbitians are a peaceful race, but<br> 
+                    they have been at war with a group of<br> 
+                    invaders for many generations. The<br> 
+                    invaders are called Upside-Downs,<br> 
+                    because of their inverted bodies that<br> 
+                    live on the ground, yet do not know any<br> 
+                    other way to be. Upside-Downs believe<br>
+                    that they will be able to win this war if<br> 
+                    they could only get an eye into Orbitian<br> 
+                    territory, so they've taken to make<br> 
+                    human beings their target.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h5 class="h5_details_mob ps-4">Details</h5>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-10 d-flex align-items-center ms-4">
+                <img src="Globe.png" class="globe_icon_mob">
+                <span class="p_view_mob ps-2">View on Etherscan</span>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-10 d-flex align-items-center ms-4">
+                <img src="Globe.png" class="globe_icon_mob">
+                <span class="p_view_mob ps-2">View Original</span>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4">
+                <p class="p_tags_mob ps-4">Tags</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn_tags1 ms-4">
+                    Animation
+                </button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <button type="button" class="btn_tags2 ms-4">
+                    illustration
+                </button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <button type="button" class="btn_tags3 ms-4">
+                    moon
+                </button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <button type="button" class="btn_tags3 ms-4">
+                    moon
+                </button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="h3_artists_mob text-center">More from this artist</h3>
+            </div>
+        </div>
+        <!-- 2 Card For Mobile -->
+        <div class="row justify-content-center mt-3">
+            <div class="col-11">
+                <div class="card card_1">
+                    <img src="./card-ph1_mob.png">
+                    <div class="card-body ps-3">
+                        <h4 class="card-title title2 pt-2">Designer Bear</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbition</p>
+                        </div>
+                        <div class="row justify-content-between align-items-end">
+                            <div class="col-4">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e_mobile">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-0 text-end">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e_mobile">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-11">
+                <div class="card card_1">
+                    <img src="./card-ph2_mob.png">
+                    <div class="card-body ps-3">
+                        <h4 class="card-title title2 pt-2">Cat from future</h4>
+                        <div class="d-flex gap-3 mt-3">
+                            <img src="./mini_img.png">
+                            <p class="card-text card_text">Orbition</p>
+                        </div>
+                        <div class="row justify-content-between align-items-end">
+                            <div class="col-4">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Price</p>
+                                    <p class="price_e_mobile">1.63 ETH</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-0 text-end">
+                                <div>
+                                    <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                    <p class="price_e_mobile">0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+                <button type="button" class="button_artist_page_mob">
+                    <img src="ArrowRight.png">
+                    Go To Artist Page
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer For mobile -->
+    <div class="container-fluid mt-5 d-block d-md-none"
+    style="background: hsla(0, 0%, 23%, 1); height: 100%;">
+        <div class="container">
+            <div class="row row_space justify-content-center">
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="./Storefront.png">
+                            <span class="footer_header ps-1">NFT Marketplace</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-4">
+                                NFT marketplace UI created with Anima<br>for Figma.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-1">Join our community</p>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-10 d-flex gap-3">
+                            <img src="./DiscordLogo.png">
+                            <img src="./YoutubeLogo.png">
+                            <img src="./TwitterLogo.png">
+                            <img src="./InstagramLogo.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h5 class="footer_header mb-4 mt-4">Explore</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Marketplace</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Rankings</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a class="footer_text a_text" href="#">Connect a wallet</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 class="footer_header mt-4 mb-4">
+                                Join our weekly digest
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="footer_text">
+                                Get exclusive promotions & updates<br> straight to your inbox.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                        <div class="col-12 mt-3">
+                            <input class="input_mail ps-3" type="email" placeholder="Enter Your Email Address">
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-12 mt-3">
+                            <button type="button" class="button_subscribe_mobile">
+                                <img src="./EnvelopeSimple.png">
+                                <a class="button_subscribe ps-1" href="#">Subscribe</a>
+                            </button>
+                        </div>
+                    </div>
+
+            </div>
+            <hr class="hr_footer">
+            <div class="row">
+                <div class="col-12 ms-1">
+                    <p class="copyR_footer pt-3">
+                        Ⓒ NFT Market. Use this template freely.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
